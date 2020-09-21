@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "gettingstarted"
+    label: "Getting started"
+    folder: "content/gettingstarted/"
+    create: true
+    slug: "{slug}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "order", widget: "number"}
