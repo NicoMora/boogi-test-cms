@@ -18,6 +18,7 @@ const plugins = [
   'gatsby-plugin-twitter',
   'gatsby-plugin-sharp',
   'gatsby-plugin-sass',
+  'gatsby-plugin-netlify-identity-widget',
   {
     resolve: `gatsby-plugin-layout`,
     options: {
